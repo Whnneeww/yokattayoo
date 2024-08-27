@@ -15,13 +15,13 @@
         const pathParts = path.split('/');
 
         // 取得したい部分のインデックス（ここでは2番目の部分）
-        const desiredPartIndex = 2;
+        const desiredPartIndex = 1;
 
         // 存在する場合は表示
         if (pathParts.length > desiredPartIndex) {
             document.getElementById('pathPart').textContent = pathParts[desiredPartIndex];
         } else {
-            document.getElementById('pathPart').textContent = '該当部分が見つかりませんでした。';
+            document.getElementById('pathPart').textContent = 'r404';
         }
     </script>
 </body>
