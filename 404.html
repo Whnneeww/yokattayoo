@@ -17,6 +17,8 @@
         // 取得したい部分のインデックス（ここでは2番目の部分）
         const desiredPartIndex = 1;
 
+        document.title = desiredPartIndex;
+
         // 存在する場合は表示
         if (pathParts.length > desiredPartIndex) {
             document.getElementById('pathPart').textContent = pathParts[desiredPartIndex];
